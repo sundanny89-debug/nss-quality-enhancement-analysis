@@ -1,0 +1,24 @@
+{
+  "M4_clean_B": {
+    "diagnostics": {
+      "divergences": 0,
+      "min_ess_bulk": 521.738564091234,
+      "min_ess_tail": 708.7961771587525,
+      "max_rhat": 1.018356439621881,
+      "share_iters_at_max_tree_depth": 0.0,
+      "max_tree_depth_reached": 7
+    },
+    "elapsed_s": 651.3422591686249
+  },
+  "M4_clean_A": {
+    "diagnostics": {
+      "divergences": 8,
+      "min_ess_bulk": 1102.510089066329,
+      "min_ess_tail": 1516.0077598728997,
+      "max_rhat": 1.0039159625427079,
+      "share_iters_at_max_tree_depth": 0.0,
+      "max_tree_depth_reached": 7
+    },
+    "elapsed_s": 538.2607297897339
+  }
+}

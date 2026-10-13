@@ -1,0 +1,33 @@
+quantity,old M4 (round 2),clean M4 refit
+Model B: sampler settings,"4 x (2000 warm-up + 2000), target 0.95","4 x (3000 warm-up + 2000), target 0.99"
+Model B: divergences,8,0
+Model B: max R-hat (all blocks),1.0096,1.0184
+Model B: max R-hat excluding sigma_c,—,"1.013 (4.7% of c_pt); rho 1.000, sigma_u 1.001, mu 1.001, sd_v_q 1.005, u/v/g/lambda/kappa <= 1.004"
+Model B: min bulk ESS / min tail ESS,490 / 898,522 / 709 (sigma_c); next lowest bulk ESS 1072 (sd_v_q)
+Model B: share of iterations at max tree depth,0.0,0.0
+Model A: sampler settings,"4 x (2000+2000), target 0.95","4 x (3000+2000), target 0.99"
+Model A: divergences,60,8
+Model A: max R-hat,1.0074,1.0039
+Model A: min bulk ESS / min tail ESS,837 / 1195,1103 / 1516
+"rho, Model B (mean, 95% CrI)","0.506 (0.477, 0.534)","0.506 (0.477, 0.534)"
+"rho, Model A","0.526 (0.490, 0.559)","0.526 (0.490, 0.559)"
+"sigma_c cohort SD (pp), Model B","0.321 (0.011, 0.794)","0.330 (0.016, 0.800)"
+"sigma_c, Model A",—,"0.288 (0.013, 0.762)"
+"sigma_u persistent provider SD (pp), B","3.92 (3.16, 4.80)","3.94 (3.17, 4.81)"
+"sigma_v,q by theme T1..T7 (mean), B","0.91, 0.39, 3.17, 1.81, 4.40, 2.98, 2.53","0.91, 0.38, 3.17, 1.82, 4.41, 2.97, 2.53"
+"lambda_q by theme T1..T7 (mean), B","1.00, 1.04, 1.23, 1.06, 1.85, 0.56, 1.47","1.00, 1.04, 1.23, 1.06, 1.85, 0.56, 1.47"
+"kappa 2024/2025/2026 (mean), B","0.980, 0.829, 0.763","0.980, 0.828, 0.762"
+M4-implied effective independent themes 7/(1+6 rho),"1.73 (1.67, 1.81)","1.73 (1.67, 1.81)"
+QMUL persistent provider effect u (pp; percentile),"-3.22 (-5.47, -1.14); 0.18","-3.23 (-5.47, -1.02); 0.18"
+QMUL A&F: latent 2026 gap; P(below); P(persist. below); P(improving),-4.16; 0.92; 0.94; 0.01,-4.17; 0.91; 0.94; 0.01
+QMUL O&M: latent 2026 gap; P(below); P(persist. below); P(improving),-4.67; 0.97; 0.98; 0.02,-4.67; 0.96; 0.98; 0.02
+QMUL Student voice: latent 2026 gap; P(below); P(persist. below); P(improving),3.92; 0.00; 0.00; 0.01,3.91; 0.00; 0.00; 0.01
+QMUL shared sampling error g_2026 (SD units),"1.66 (0.45, 2.86)","1.67 (0.45, 2.87)"
+"QMUL cohort change 2025->26, c (pp)",0.23,"0.23 (-0.72, 1.73)"
+Sector churn observed -> posterior 3x3 (n=798): full / position,0.669 / 0.327,0.669 / 0.327
+Agreement old vs clean (798 cells): modal position / 3x3 state / r P(below) / mean |dtheta|,—,1.000 / 1.000 / 0.9999 / 0.022 pp
+PPC cross-theme corr of dD: observed vs replicated (p),0.547 vs 0.507 (p=0.26),0.547 vs 0.507 (p=0.28)
+Held-out 2026 (n=798): RMSE / MAE,5.393 / 3.894,5.398 / 3.895
+Held-out: Brier / log-loss / CRPS,0.5276 / 0.8939 / 2.778,0.5275 / 0.8929 / 2.777
+Held-out: coverage 50/80/90/95%,50.6 / 78.6 / 87.0 / 93.7,50.9 / 78.3 / 87.1 / 93.6
+Held-out: correlation of point predictions old vs clean; mean |diff|,—,0.99996; 0.035 pp

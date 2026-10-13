@@ -1,0 +1,8 @@
+UKPRN,provider,theme,D_2026,s_2026,n_2026,pred27_mean,pred27_lo90,pred27_hi90,P27_below,P27_above,latent27_mean,P27_latent_below,P27_latent_above
+10007775,Queen Mary University of London,1,0.2,1.9,318.9,-1.6,-5.15,2.05,0.34,0.03,-1.58,0.18,0.0
+10007775,Queen Mary University of London,2,0.0,1.9,318.9,-1.75,-5.18,1.8,0.36,0.03,-1.72,0.21,0.0
+10007775,Queen Mary University of London,3,-2.2,2.2,318.9,-4.33,-8.46,-0.11,0.77,0.0,-4.31,0.93,0.0
+10007775,Queen Mary University of London,4,-0.5,1.7,317.9,-2.69,-5.95,0.58,0.54,0.0,-2.68,0.56,0.0
+10007775,Queen Mary University of London,5,0.7,2.2,318.9,-4.82,-9.04,-0.74,0.83,0.0,-4.81,0.97,0.0
+10007775,Queen Mary University of London,6,0.7,1.7,318.3,-2.62,-5.86,0.66,0.53,0.01,-2.61,0.54,0.0
+10007775,Queen Mary University of London,7,6.8,2.1,317.9,3.78,-0.22,7.81,0.01,0.7,3.77,0.0,0.85

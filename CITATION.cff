@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this research compendium, please cite the archived Zenodo release."
+title: "Beyond positivity: NSS benchmark-adjusted and reliability-aware analysis — reproducibility archive"
+version: 1.0.0
+authors:
+  - family-names: Sun
+    given-names: Yiwei
+    orcid: "https://orcid.org/0000-0002-1259-5131"
+    affiliation: "School of Engineering and Materials Science, Queen Mary University of London"
+type: software
+keywords:
+  - National Student Survey
+  - higher education quality
+  - benchmarking
+  - partial pooling
+  - Bayesian hierarchical modelling
+  - reproducibility

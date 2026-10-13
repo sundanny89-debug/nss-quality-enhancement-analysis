@@ -1,0 +1,21 @@
+{
+  "title": "Beyond positivity: NSS benchmark-adjusted and reliability-aware analysis \u2014 reproducibility archive",
+  "description": "Reproducibility archive for a methodological study of National Student Survey quality-enhancement analysis using public Office for Students data, including harmonised extracts, analysis code, selected outputs, and a pre-2027 frozen set of posterior predictive distributions.",
+  "creators": [
+    {
+      "name": "Sun, Yiwei",
+      "affiliation": "School of Engineering and Materials Science, Queen Mary University of London",
+      "orcid": "0000-0002-1259-5131"
+    }
+  ],
+  "keywords": [
+    "National Student Survey",
+    "higher education quality",
+    "benchmarking",
+    "partial pooling",
+    "Bayesian hierarchical modelling",
+    "reproducibility"
+  ],
+  "upload_type": "software",
+  "access_right": "open"
+}
