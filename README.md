@@ -30,7 +30,7 @@ The files in `data/raw_public_extracts/` are compact extracts constructed from t
 
 See `docs/REPRODUCIBILITY.md`.
 
-The Bayesian analyses require Python with NumPy, pandas, SciPy, Matplotlib, JAX and NumPyro. The exact environment used for the final Bayesian run should additionally be exported from that environment before public release (see `docs/ENVIRONMENT_FREEZE.md`).
+The Bayesian analyses require Python with NumPy, pandas, SciPy, Matplotlib, JAX and NumPyro. The **original final Bayesian runtime was captured on 21 August 2026** (after the 18 August clean fits), with no subsequent package changes reported in the provenance record. Its capture is preserved at repository root: `environment-python.txt` (Python 3.12.3), `requirements-lock.txt` (142 exact installed package versions), and `PROVENANCE.md` (runtime and timing evidence). The original container itself is no longer running. See `docs/ENVIRONMENT_FREEZE.md`.
 
 ## Frozen 2027 predictions
 
